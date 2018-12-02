@@ -1,5 +1,6 @@
 import os
 import sys
+from dayFuncs import *
 
 print(
 '''
@@ -45,6 +46,11 @@ x = input("Now, when someone is guilty, they USUALLY tell their lawyers so.")
 del x
 x = input ("But this guy... heh... this guy was different.")
 del x
-print('He marched into your office with that little limp of his, sat down like he owned the place, and proceeded to \nrant about how he was innocent and that the jury, prosecution, judge, everyone from the county sheriff \nto the attourney general was an idiot for allowing an innocent man to face criminal charges.')
+print('He marched into your office with that little limp of his, sat down like he owned the place, and quickly \ntold you his name, Paris, before he went on to rant about how he was innocent and that the jury, prosecution, judge, everyone from the county sheriff \nto the attourney general was an idiot for allowing an innocent man to face criminal charges.')
 print("... Unfortunately for you, you're legally required to help him how you can.")
 input("Good luck.")
+corr = 0
+path = 'D'
+done = day1(corr, name, path)
+if done:
+	quit()
