@@ -75,6 +75,7 @@ elif RorD1 == 2:
 input = int(input('''Press 1 to tell the marsello that you think he is guilty and he should to take a plea bargainself.
 Press 2 to tell him that he was safe and you will fight for him:''')
 
+
 if input == 1:
     print('''Insert ''')
 if input == 2:
